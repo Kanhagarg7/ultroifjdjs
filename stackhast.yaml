@@ -1,0 +1,17 @@
+user:
+  name: ishikki
+  github: ishikki-akabane
+
+language: "python"
+python_version: "3.12"
+
+commands:
+  build:
+    - "apt install python3-dev;pip3 install --break-system-packages --no-cache-dir -r requirements.txt;pip3 install --break-system-packages --no-cache-dir -r res*/st*/op*"
+  package:
+    - "nano inxi"
+  start:
+    - "bash startup"
+
+env:
+  - "ENVIRONMENT=production"
