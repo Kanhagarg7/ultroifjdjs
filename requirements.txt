@@ -1,5 +1,4 @@
 # Important Requirements here.
-pycryptodomex
 https://github.com/New-dev0/Telethon/archive/platy.zip
 python-decouple
 python-dotenv
@@ -28,7 +27,6 @@ qrcode
 requests
 tabulate
 telegraph
-tgcrypto
 youtube-search-python
 pycryptodomex
 yt-dlp
