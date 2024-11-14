@@ -9,7 +9,7 @@ commands:
   build:
     - "pip3 install --break-system-packages --no-cache-dir -r requirements.txt"
   package:
-    - "qBittorrent"
+    - "qBittorrent-nox"
   start:
     - "bash startup"
 
