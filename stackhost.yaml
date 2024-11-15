@@ -8,8 +8,10 @@ python_version: "3.12"
 commands:
   build:
     - "pip3 install --break-system-packages --no-cache-dir -r requirements.txt"
+    - "apt update -y && apt upgrade -y"
+    - "apt install neofetch -y"
   package:
-    - "qBittorrent-nox"
+    - "git"
   start:
     - "bash startup"
 
